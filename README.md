@@ -61,3 +61,25 @@ The three main models tested were:
 • It outputs probabilities, which are essential for credit scoring to give confidence levels about whether an individual will default.
 
 • The confusion matrix and classification report showed reasonable precision and recall for the non-defaulter class (though improvement is needed for defaulter prediction).
+
+## 3. CONCLUSION
+
+The logistic regression model provided a reasonable prediction accuracy of 72%, although it struggled with recall for defaulters, achieving only 13%. This may be due to class imbalance.
+
+The Random Forest and Decision Tree models were also tested but did not outperform logistic Regression significantly. However, Random Forest did show promise in capturing the defaulter class more accurately than other models.
+
+### Summary of Model Performance:
+1. Logistic Regression:
+- Accuracy: 72%
+
+- Precision (Defaulter): 52%, Recall (Defaulter): 13%
+
+2. Decision Tree:
+- Accuracy: 62%
+
+- Precision (Defaulter): 36%, Recall (Defaulter): 32%
+
+3. Random Forest:
+- Accuracy: 69%
+
+- Precision (Defaulter): 46%, Recall (Defaulter): 19%
