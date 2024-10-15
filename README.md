@@ -46,9 +46,11 @@ Relevant objectives include
 
 The three main models tested were:
 
-*Logistic Regression*
-*Decision Tree Classifier*
-*Random Forest Classifier*
+- *Logistic Regression*
+
+- *Decision Tree Classifier*
+
+- *Random Forest Classifier*
 
 #### a) Technique Selected:
 
