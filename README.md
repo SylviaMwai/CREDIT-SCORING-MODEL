@@ -41,3 +41,21 @@ Relevant objectives include
 • Refining decision-making processes
 
 • Expanding the analysis with multiple models to ensure robustness in prediction.
+
+2. DATA MODELLING
+
+The three main models tested were:
+
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+
+a) Technique Selected:
+
+Logistic Regression was chosen as the final model for the following reasons:
+
+• Logistic Regression provided a good balance of interpretability and performance with an accuracy of 72% on the test set.
+
+• It outputs probabilities, which are essential for credit scoring to give confidence levels about whether an individual will default.
+
+• The confusion matrix and classification report showed reasonable precision and recall for the non-defaulter class (though improvement is needed for defaulter prediction).
